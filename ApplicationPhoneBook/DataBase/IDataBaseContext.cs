@@ -13,5 +13,5 @@ namespace ApplicationPhoneBook.DataBase
         public DbSet<Contact> Contacts { get; set; }
 
         public int SaveChanges();
-    }
+    } 
 }

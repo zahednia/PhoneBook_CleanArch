@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationPhoneBook.DataBase
 {
-    public class IDataBaseContext
+    public interface IDataBaseContext
     {
         public DbSet<Contact> Contacts { get; set; }
 

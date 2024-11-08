@@ -25,9 +25,10 @@ namespace ApplicationPhoneBook.Services.AddNewContact
             Contact contact = new Contact
                 (newContact.Name,
                 newContact.LastName,
+                newContact.Company,
                 newContact.PhoneNumber,
-                newContact.Description,
-                newContact.Company);
+                newContact.Description
+                );
 
             dataBaseContext.Contacts.Add(contact);
             dataBaseContext.SaveChanges();

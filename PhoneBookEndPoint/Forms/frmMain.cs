@@ -1,4 +1,6 @@
 ﻿
+using ApplicationPhoneBook.Services.AddNewContact;
+using PhoneBookEndPoint;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -62,8 +64,10 @@ namespace UI_winForm.Forms
 
         private void btnAddNewContact_Click(object sender, EventArgs e)
         {
-            frmAddContact frmAddContact = new frmAddContact();
+            var serviceadd = (IAddNewService)Program.ServiceProvider.GetService(typeof(IAddNewService));
+            frmAddContact frmAddContact = new frmAddContact(serviceadd);
             frmAddContact.ShowDialog();
+            frmMain_Load(null, null );
         }
 
         private void btnEdit_Click(object sender, EventArgs e)

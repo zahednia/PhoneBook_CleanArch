@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApplicationPhoneBook\ApplicationPhoneBook.csproj" />
+    <ProjectReference Include="..\Persistance\Persistance.csproj" />
   </ItemGroup>
 
 </Project>

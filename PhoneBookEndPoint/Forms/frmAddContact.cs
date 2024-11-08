@@ -1,4 +1,5 @@
 ﻿
+using ApplicationPhoneBook.Services.AddNewContact;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,10 +14,12 @@ namespace UI_winForm.Forms
 {
     public partial class frmAddContact : Form
     {
+        private readonly IAddNewService addNewService;
 
-        public frmAddContact()
+        public frmAddContact(IAddNewService addNewService)
         {
             InitializeComponent();
+            this.addNewService = addNewService;
         }
 
         private void frmAddContact_Load(object sender, EventArgs e)
@@ -26,8 +29,24 @@ namespace UI_winForm.Forms
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-           
+            var result = addNewService.Execute(new AddNewContactDTO
+            {
+                Company = txtCompany.Text,
+                Description = txtDescription.Text,
+                LastName= txtLastName.Text,
+                Name= txtName.Text,
+                PhoneNumber= txtPhoneNumber.Text
+            });
+            if (result.IsSuccess)
+            {
+                MessageBox.Show(result.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
 
+            }
+            else
+            {
+                MessageBox.Show(result.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -82,7 +101,7 @@ namespace UI_winForm.Forms
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void txtName_TextChanged(object sender, EventArgs e)

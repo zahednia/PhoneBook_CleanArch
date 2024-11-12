@@ -1,0 +1,15 @@
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\bin\Debug\net5.0\ApplicationPhoneBook.deps.json
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\bin\Debug\net5.0\ApplicationPhoneBook.dll
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\bin\Debug\net5.0\ApplicationPhoneBook.pdb
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\bin\Debug\net5.0\DomainPhoneBook.dll
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\bin\Debug\net5.0\DomainPhoneBook.pdb
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.csproj.AssemblyReference.cache
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.AssemblyInfoInputs.cache
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.AssemblyInfo.cs
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.csproj.CoreCompileInputs.cache
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.csproj.CopyComplete
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.dll
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\refint\ApplicationPhoneBook.dll
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.pdb
+D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ref\ApplicationPhoneBook.dll

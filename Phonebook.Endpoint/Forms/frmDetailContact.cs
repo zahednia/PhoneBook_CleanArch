@@ -11,30 +11,22 @@ using System.Windows.Forms;
 
 namespace UI_winForm.Forms
 {
-    public partial class frmEdit : Form
+    public partial class frmDetailContact : Form
     {
 
-        public frmEdit()
+        public frmDetailContact()
         {
             InitializeComponent();
+        }
+
+        private void frmDetailContact_Load(object sender, EventArgs e)
+        {
 
         }
 
-        private void editContactDto_Load(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-           
-
-        }
-
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnSaveEdit_Click(object sender, EventArgs e)
-        {
-           
-
+            this.Close();
         }
     }
 }

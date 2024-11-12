@@ -1,45 +1,43 @@
 ﻿using ApplicationPhoneBook.DataBase;
-using ApplicationPhoneBook.DTO;
+using ApplicationPhoneBook.Dto;
 using DomainPhoneBook.Entities;
 
 namespace ApplicationPhoneBook.Services.AddNewContact
 {
-    public class AddNewService : IAddNewService
+    public class AddNewContactService : IAddNewContactService
     {
         private readonly IDataBaseContext dataBaseContext;
 
-        public AddNewService(IDataBaseContext dataBaseContext)
+        public AddNewContactService(IDataBaseContext dataBaseContext)
         {
             this.dataBaseContext = dataBaseContext;
         }
-        public ResultDTO Execute(AddNewContactDTO newContact)
+
+        public ResultDto Execute(AddNewContactDto newContact)
         {
+
             if (string.IsNullOrEmpty(newContact.PhoneNumber))
             {
-                return new ResultDTO
+                return new ResultDto
                 {
                     IsSuccess = false,
                     Message = "شماره موبایل اجباری می باشد. لطفا شماره موبایل هم وارد کنید"
                 };
             }
-            Contact contact = new Contact
-                (newContact.Name,
-                newContact.LastName,
-                newContact.Company,
-                newContact.PhoneNumber,
-                newContact.Description
-                );
+
+            Contact contact =
+                new Contact(newContact.Name, newContact.LastName,
+                newContact.PhoneNumber, newContact.Company);
+
 
             dataBaseContext.Contacts.Add(contact);
             dataBaseContext.SaveChanges();
 
-
-            return new ResultDTO
+            return new ResultDto
             {
                 IsSuccess = true,
                 Message = $" مخاطب {contact.Name} {contact.LastName} با موفقیت در دیتابیس ذخیره شد",
             };
-
         }
     }
 }

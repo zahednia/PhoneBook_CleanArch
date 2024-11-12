@@ -4,20 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationPhoneBook.DTO
+namespace ApplicationPhoneBook.Dto
 {
-
-    public class ResultDTO
+    public class ResultDto
     {
         public bool IsSuccess { get; set; }
         public string Message { get; set; }
-
     }
 
-
-    public class ResultDTO<T>
+    public class ResultDto<T>
     {
-        public bool Success { get; set; }
+        public bool IsSuccess { get; set; }
         public string Message { get; set; }
         public T Data { get; set; }
     }

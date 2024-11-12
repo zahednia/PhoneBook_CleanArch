@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationPhoneBook.Services.AddNewContact
 {
-    public class AddNewContactDTO
+    public class AddNewContactDto
     {
         public string Name { get; set; }
         public string LastName { get; set; }

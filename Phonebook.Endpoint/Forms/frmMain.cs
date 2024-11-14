@@ -124,5 +124,12 @@ namespace UI_winForm.Forms
             frmEdit.ShowDialog();
             frmMain_Load(null, null);
         }
+
+        private void ShowDetail()
+        {
+            var Id = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            frmDetailContact frmDetailContact = new frmDetailContact(Id);
+            frmDetailContact.ShowDialog();
+        }
     }
 }

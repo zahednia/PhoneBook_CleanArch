@@ -1,6 +1,7 @@
 using ApplicationPhoneBook.DataBase;
 using ApplicationPhoneBook.Services.AddNewContact;
 using ApplicationPhoneBook.Services.DeleteContact;
+using ApplicationPhoneBook.Services.EditContact;
 using ApplicationPhoneBook.Services.GetlistContact;
 using ApplicationPhoneBook.Services.ShowDetail;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,6 +28,7 @@ namespace Phonebook.Endpoint
             services.AddScoped<IAddNewContactService, AddNewContactService>();
             services.AddScoped<IGetlistContactService, GetlistContactService>();
             services.AddScoped<iShowDetailService, ShowDetailService>();
+            services.AddScoped<iEditContact ,EditContactService>();
             services.AddTransient<IDeleteContactService, DeleteContactService>();
             services.AddDbContext<DatabaseContext>();
 

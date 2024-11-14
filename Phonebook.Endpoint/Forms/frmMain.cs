@@ -1,5 +1,6 @@
 ﻿using ApplicationPhoneBook.Services.AddNewContact;
 using ApplicationPhoneBook.Services.DeleteContact;
+using ApplicationPhoneBook.Services.EditContact;
 using ApplicationPhoneBook.Services.GetlistContact;
 using ApplicationPhoneBook.Services.ShowDetail;
 using PersistencePhoneBook.Context;
@@ -90,9 +91,10 @@ namespace UI_winForm.Forms
 
         private void ShowDetail()
         {
-            //var Id = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            //frmDetailContact frmDetailContact = new frmDetailContact(Id);
-            //frmDetailContact.ShowDialog();
+            var iShowDetailService = (iShowDetailService)Program.ServiceProvider.GetService(typeof(iShowDetailService));
+            var Id = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            frmDetailContact frmDetailContact = new frmDetailContact(iShowDetailService, Id);
+            frmDetailContact.ShowDialog();
         }
 
         private void frmMain_DoubleClick(object sender, EventArgs e)
@@ -118,18 +120,14 @@ namespace UI_winForm.Forms
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            var iShowDetailService = (iShowDetailService)Program.ServiceProvider.GetService(typeof(iShowDetailService));
+            var editContact = (iEditContact)Program.ServiceProvider.GetService(typeof(iEditContact));
             var Id = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
 
-            frmEdit frmEdit = new frmEdit(Id);
+            frmEdit frmEdit = new frmEdit(editContact, Id , iShowDetailService);
             frmEdit.ShowDialog();
             frmMain_Load(null, null);
         }
 
-        private void ShowDetail()
-        {
-            var Id = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            frmDetailContact frmDetailContact = new frmDetailContact(Id);
-            frmDetailContact.ShowDialog();
-        }
     }
 }

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Phonebook.Endpoint"
+    "\\Phonebook.Endpoint",
+    "\\Phonebook.Endpoint\\Forms"
   ],
-  "SelectedNode": "\\Phonebook.Endpoint\\Program.cs",
+  "SelectedNode": "\\Phonebook.Endpoint\\Forms\\frmMain.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -31,12 +31,14 @@ namespace DomainPhoneBook.Entities
             this.CreateAt = DateTime.Now;
         }
 
-        public void Update(string Name, string LastName, string PhoneNumber, string Company)
+        public void Update(string Name, string LastName, string Company,string Description , string PhoneNumber)
         {
             this.Name = Name;
             this.LastName = LastName;
-            this.PhoneNumber = PhoneNumber;
             this.Company = Company;
+            this.Description = Description;
+            this.PhoneNumber = PhoneNumber;
+            
         }
     }
 }

@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Phonebook.Endpoint"
   ],
-  "SelectedNode": "\\PhoneBook_CleanArchitecture.sln",
+  "SelectedNode": "\\Phonebook.Endpoint\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

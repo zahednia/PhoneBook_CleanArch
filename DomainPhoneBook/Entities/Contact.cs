@@ -21,12 +21,13 @@ namespace DomainPhoneBook.Entities
 
         }
 
-        public Contact(string Name, string LastName, string PhoneNumber, string Company)
+        public Contact(string Name, string LastName, string PhoneNumber, string Company ,string description)
         {
             this.Name = Name;
             this.LastName = LastName;
             this.PhoneNumber = PhoneNumber;
             this.Company = Company;
+            this.Description = description;
             this.CreateAt = DateTime.Now;
         }
 

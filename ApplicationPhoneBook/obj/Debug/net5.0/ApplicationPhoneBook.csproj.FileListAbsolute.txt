@@ -13,3 +13,18 @@ D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\refint\ApplicationPhoneBook.dll
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.pdb
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\ApplicationPhoneBook\obj\Debug\net5.0\ref\ApplicationPhoneBook.dll
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net5.0\ApplicationPhoneBook.deps.json
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net5.0\ApplicationPhoneBook.dll
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net5.0\ApplicationPhoneBook.pdb
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net5.0\DomainPhoneBook.dll
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net5.0\DomainPhoneBook.pdb
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.AssemblyInfo.cs
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.csproj.CopyComplete
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.dll
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\refint\ApplicationPhoneBook.dll
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ApplicationPhoneBook.pdb
+C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net5.0\ref\ApplicationPhoneBook.dll

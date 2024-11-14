@@ -2,6 +2,7 @@ using ApplicationPhoneBook.DataBase;
 using ApplicationPhoneBook.Services.AddNewContact;
 using ApplicationPhoneBook.Services.DeleteContact;
 using ApplicationPhoneBook.Services.GetlistContact;
+using ApplicationPhoneBook.Services.ShowDetail;
 using Microsoft.Extensions.DependencyInjection;
 using PersistencePhoneBook.Context;
 using System;
@@ -25,6 +26,7 @@ namespace Phonebook.Endpoint
             services.AddScoped<IDataBaseContext, DatabaseContext>();
             services.AddScoped<IAddNewContactService, AddNewContactService>();
             services.AddScoped<IGetlistContactService, GetlistContactService>();
+            services.AddScoped<iShowDetailService, ShowDetailService>();
             services.AddTransient<IDeleteContactService, DeleteContactService>();
             services.AddDbContext<DatabaseContext>();
 

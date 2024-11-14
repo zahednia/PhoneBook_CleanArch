@@ -1,6 +1,7 @@
 ﻿using ApplicationPhoneBook.Services.AddNewContact;
 using ApplicationPhoneBook.Services.DeleteContact;
 using ApplicationPhoneBook.Services.GetlistContact;
+using ApplicationPhoneBook.Services.ShowDetail;
 using PersistencePhoneBook.Context;
 using Phonebook.Endpoint;
 using System;
@@ -81,7 +82,10 @@ namespace UI_winForm.Forms
 
         private void btnDetail_Click(object sender, EventArgs e)
         {
-            ShowDetail();
+            var serviceAdd = (iShowDetailService)Program.ServiceProvider.GetService(typeof(iShowDetailService));
+            var Id = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            frmDetailContact frmDetailContact = new frmDetailContact(serviceAdd, Id);
+            frmDetailContact.ShowDialog();
         }
 
         private void ShowDetail()

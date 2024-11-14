@@ -10,15 +10,3 @@ D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\DomainPhoneBook\obj\Debug\net5.0\refint\DomainPhoneBook.dll
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\DomainPhoneBook\obj\Debug\net5.0\DomainPhoneBook.pdb
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\DomainPhoneBook\obj\Debug\net5.0\ref\DomainPhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\bin\Debug\net5.0\DomainPhoneBook.deps.json
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\bin\Debug\net5.0\DomainPhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\bin\Debug\net5.0\DomainPhoneBook.pdb
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\DomainPhoneBook.csproj.AssemblyReference.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\DomainPhoneBook.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\DomainPhoneBook.AssemblyInfoInputs.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\DomainPhoneBook.AssemblyInfo.cs
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\DomainPhoneBook.csproj.CoreCompileInputs.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\DomainPhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\refint\DomainPhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\DomainPhoneBook.pdb
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net5.0\ref\DomainPhoneBook.dll

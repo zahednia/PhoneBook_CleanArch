@@ -18,23 +18,3 @@ D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.pdb
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.genruntimeconfig.cache
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\PersistencePhoneBook\obj\Debug\net5.0\ref\PersistencePhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\PersistencePhoneBook.deps.json
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\PersistencePhoneBook.runtimeconfig.json
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\PersistencePhoneBook.runtimeconfig.dev.json
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\PersistencePhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\PersistencePhoneBook.pdb
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\ApplicationPhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\DomainPhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\ApplicationPhoneBook.pdb
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\bin\Debug\net5.0\DomainPhoneBook.pdb
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.csproj.AssemblyReference.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.AssemblyInfoInputs.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.AssemblyInfo.cs
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.csproj.CoreCompileInputs.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.csproj.CopyComplete
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\refint\PersistencePhoneBook.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.pdb
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\PersistencePhoneBook.genruntimeconfig.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\PersistencePhoneBook\obj\Debug\net5.0\ref\PersistencePhoneBook.dll

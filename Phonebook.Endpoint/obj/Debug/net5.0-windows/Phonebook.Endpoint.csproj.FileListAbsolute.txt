@@ -61,13 +61,3 @@ D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\Phonebook.Endpoint\obj\Debug\net5.0-windows\Phonebook.Endpoint.pdb
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\Phonebook.Endpoint\obj\Debug\net5.0-windows\Phonebook.Endpoint.genruntimeconfig.cache
 D:\C# Moghadamati\08 PhooneBook With Clean Architecture\08-10 Delete Service\Src\PhoneBook_CleanArchitecture\Phonebook.Endpoint\obj\Debug\net5.0-windows\ref\Phonebook.Endpoint.dll
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\Phonebook.Endpoint.csproj.AssemblyReference.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\UI_winForm.Forms.frmAddContact.resources
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\UI_winForm.Forms.frmDetailContact.resources
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\UI_winForm.Forms.frmEdit.resources
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\UI_winForm.Forms.frmMain.resources
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\Phonebook.Endpoint.csproj.GenerateResource.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\Phonebook.Endpoint.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\Phonebook.Endpoint.AssemblyInfoInputs.cache
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\Phonebook.Endpoint.AssemblyInfo.cs
-C:\Users\User\Source\Repos\zahednia\PhoneBook_CleanArch\Phonebook.Endpoint\obj\Debug\net5.0-windows\Phonebook.Endpoint.csproj.CoreCompileInputs.cache

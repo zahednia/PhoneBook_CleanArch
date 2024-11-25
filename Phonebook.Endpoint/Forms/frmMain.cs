@@ -49,8 +49,8 @@ namespace UI_winForm.Forms
             dataGridView1.Columns[1].HeaderText = "نام";
             dataGridView1.Columns[2].HeaderText = "شماره تلفن";
 
-            dataGridView1.Columns[1].Width = 200;
-            dataGridView1.Columns[2].Width = 200;
+            dataGridView1.Columns[1].Width = 400;
+            dataGridView1.Columns[2].Width = 400;
         }
 
         private void btnSearch_Click(object sender, EventArgs e)

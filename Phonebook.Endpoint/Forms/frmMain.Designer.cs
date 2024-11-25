@@ -44,23 +44,23 @@ namespace UI_winForm.Forms
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 195);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 184);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(442, 406);
+            this.dataGridView1.Size = new System.Drawing.Size(785, 406);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
             // txtSearchKey
             // 
-            this.txtSearchKey.Location = new System.Drawing.Point(264, 108);
+            this.txtSearchKey.Location = new System.Drawing.Point(604, 78);
             this.txtSearchKey.Name = "txtSearchKey";
-            this.txtSearchKey.Size = new System.Drawing.Size(169, 33);
+            this.txtSearchKey.Size = new System.Drawing.Size(169, 24);
             this.txtSearchKey.TabIndex = 1;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(264, 147);
+            this.btnSearch.Location = new System.Drawing.Point(604, 117);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(169, 33);
             this.btnSearch.TabIndex = 2;
@@ -71,57 +71,61 @@ namespace UI_winForm.Forms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(317, 80);
+            this.label1.Location = new System.Drawing.Point(657, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 26);
+            this.label1.Size = new System.Drawing.Size(66, 18);
             this.label1.TabIndex = 3;
             this.label1.Text = "جستجو کنید";
             // 
             // btnDelete
             // 
+            this.btnDelete.BackColor = System.Drawing.Color.LightCoral;
             this.btnDelete.Location = new System.Drawing.Point(12, 147);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(125, 33);
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "حذف مخاطب";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnDetail
             // 
+            this.btnDetail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnDetail.Location = new System.Drawing.Point(12, 108);
             this.btnDetail.Name = "btnDetail";
             this.btnDetail.Size = new System.Drawing.Size(125, 33);
             this.btnDetail.TabIndex = 5;
             this.btnDetail.Text = "نمایش جزئیات";
-            this.btnDetail.UseVisualStyleBackColor = true;
+            this.btnDetail.UseVisualStyleBackColor = false;
             this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
             // btnAddNewContact
             // 
-            this.btnAddNewContact.Location = new System.Drawing.Point(12, 69);
+            this.btnAddNewContact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnAddNewContact.Location = new System.Drawing.Point(12, 12);
             this.btnAddNewContact.Name = "btnAddNewContact";
-            this.btnAddNewContact.Size = new System.Drawing.Size(151, 33);
+            this.btnAddNewContact.Size = new System.Drawing.Size(158, 33);
             this.btnAddNewContact.TabIndex = 6;
             this.btnAddNewContact.Text = "ثبت مخاطب جدید";
-            this.btnAddNewContact.UseVisualStyleBackColor = true;
+            this.btnAddNewContact.UseVisualStyleBackColor = false;
             this.btnAddNewContact.Click += new System.EventHandler(this.btnAddNewContact_Click);
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(12, 26);
+            this.btnEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnEdit.Location = new System.Drawing.Point(12, 51);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(151, 37);
+            this.btnEdit.Size = new System.Drawing.Size(158, 37);
             this.btnEdit.TabIndex = 7;
             this.btnEdit.Text = "ویرایش مخاطب";
-            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(442, 601);
+            this.ClientSize = new System.Drawing.Size(785, 590);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAddNewContact);
             this.Controls.Add(this.btnDetail);
@@ -130,7 +134,7 @@ namespace UI_winForm.Forms
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearchKey);
             this.Controls.Add(this.dataGridView1);
-            this.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "frmMain";

@@ -1,0 +1,17 @@
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net6.0\ApplicationPhoneBook.deps.json
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net6.0\ApplicationPhoneBook.runtimeconfig.json
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net6.0\ApplicationPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net6.0\ref\ApplicationPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net6.0\ApplicationPhoneBook.pdb
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net6.0\DomainPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\bin\Debug\net6.0\DomainPhoneBook.pdb
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.csproj.AssemblyReference.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.AssemblyInfoInputs.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.AssemblyInfo.cs
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.csproj.CoreCompileInputs.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.csproj.CopyComplete
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ref\ApplicationPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.pdb
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\ApplicationPhoneBook\obj\Debug\net6.0\ApplicationPhoneBook.genruntimeconfig.cache

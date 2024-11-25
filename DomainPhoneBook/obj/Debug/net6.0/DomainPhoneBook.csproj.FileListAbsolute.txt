@@ -1,0 +1,12 @@
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\bin\Debug\net6.0\DomainPhoneBook.deps.json
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\bin\Debug\net6.0\DomainPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\bin\Debug\net6.0\ref\DomainPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\bin\Debug\net6.0\DomainPhoneBook.pdb
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net6.0\DomainPhoneBook.csproj.AssemblyReference.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net6.0\DomainPhoneBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net6.0\DomainPhoneBook.AssemblyInfoInputs.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net6.0\DomainPhoneBook.AssemblyInfo.cs
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net6.0\DomainPhoneBook.csproj.CoreCompileInputs.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net6.0\DomainPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net6.0\ref\DomainPhoneBook.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\DomainPhoneBook\obj\Debug\net6.0\DomainPhoneBook.pdb

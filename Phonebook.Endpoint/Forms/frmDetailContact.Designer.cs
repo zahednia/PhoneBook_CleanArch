@@ -35,24 +35,24 @@ namespace UI_winForm.Forms
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.lblLastName = new System.Windows.Forms.Label();
             this.lblCompany = new System.Windows.Forms.Label();
             this.lblPhoneNumber = new System.Windows.Forms.Label();
             this.lblCreatetAt = new System.Windows.Forms.Label();
-            this.lblDescription = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
+            this.rtxtDes = new System.Windows.Forms.RichTextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(29, 30);
+            this.label1.Location = new System.Drawing.Point(43, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 26);
+            this.label1.Size = new System.Drawing.Size(48, 18);
             this.label1.TabIndex = 0;
             this.label1.Text = "شناسه :";
             // 
@@ -60,9 +60,9 @@ namespace UI_winForm.Forms
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(29, 71);
+            this.label2.Location = new System.Drawing.Point(43, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 26);
+            this.label2.Size = new System.Drawing.Size(29, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "نام :";
             // 
@@ -70,9 +70,9 @@ namespace UI_winForm.Forms
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(29, 114);
+            this.label3.Location = new System.Drawing.Point(43, 112);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 26);
+            this.label3.Size = new System.Drawing.Size(75, 18);
             this.label3.TabIndex = 2;
             this.label3.Text = "نام خانوادگی:";
             // 
@@ -80,9 +80,9 @@ namespace UI_winForm.Forms
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(29, 159);
+            this.label4.Location = new System.Drawing.Point(43, 157);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 26);
+            this.label4.Size = new System.Drawing.Size(49, 18);
             this.label4.TabIndex = 3;
             this.label4.Text = "شرکت :";
             // 
@@ -90,9 +90,9 @@ namespace UI_winForm.Forms
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(29, 201);
+            this.label5.Location = new System.Drawing.Point(43, 199);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 26);
+            this.label5.Size = new System.Drawing.Size(66, 18);
             this.label5.TabIndex = 4;
             this.label5.Text = "شماره تلفن:";
             // 
@@ -100,117 +100,117 @@ namespace UI_winForm.Forms
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(29, 257);
+            this.label6.Location = new System.Drawing.Point(43, 240);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 26);
+            this.label6.Size = new System.Drawing.Size(62, 18);
             this.label6.TabIndex = 5;
             this.label6.Text = "تاریخ ثبت:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(29, 303);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 26);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "توضیحات:";
             // 
             // lblId
             // 
             this.lblId.AutoSize = true;
-            this.lblId.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblId.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblId.Location = new System.Drawing.Point(96, 30);
+            this.lblId.Location = new System.Drawing.Point(142, 28);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(60, 26);
+            this.lblId.Size = new System.Drawing.Size(52, 18);
             this.lblId.TabIndex = 7;
             this.lblId.Text = "label8";
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblName.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblName.Location = new System.Drawing.Point(85, 71);
+            this.lblName.Location = new System.Drawing.Point(142, 69);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(58, 26);
+            this.lblName.Size = new System.Drawing.Size(52, 18);
             this.lblName.TabIndex = 8;
             this.lblName.Text = "label9";
             // 
             // lblLastName
             // 
             this.lblLastName.AutoSize = true;
-            this.lblLastName.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblLastName.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblLastName.Location = new System.Drawing.Point(128, 114);
+            this.lblLastName.Location = new System.Drawing.Point(133, 112);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(63, 26);
+            this.lblLastName.Size = new System.Drawing.Size(61, 18);
             this.lblLastName.TabIndex = 9;
             this.lblLastName.Text = "label10";
             // 
             // lblCompany
             // 
             this.lblCompany.AutoSize = true;
-            this.lblCompany.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCompany.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCompany.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblCompany.Location = new System.Drawing.Point(119, 159);
+            this.lblCompany.Location = new System.Drawing.Point(133, 157);
             this.lblCompany.Name = "lblCompany";
-            this.lblCompany.Size = new System.Drawing.Size(62, 26);
+            this.lblCompany.Size = new System.Drawing.Size(61, 18);
             this.lblCompany.TabIndex = 10;
             this.lblCompany.Text = "label11";
             // 
             // lblPhoneNumber
             // 
             this.lblPhoneNumber.AutoSize = true;
-            this.lblPhoneNumber.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPhoneNumber.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblPhoneNumber.Location = new System.Drawing.Point(128, 201);
+            this.lblPhoneNumber.Location = new System.Drawing.Point(133, 199);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
-            this.lblPhoneNumber.Size = new System.Drawing.Size(65, 26);
+            this.lblPhoneNumber.Size = new System.Drawing.Size(61, 18);
             this.lblPhoneNumber.TabIndex = 11;
             this.lblPhoneNumber.Text = "label12";
             // 
             // lblCreatetAt
             // 
             this.lblCreatetAt.AutoSize = true;
-            this.lblCreatetAt.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblCreatetAt.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblCreatetAt.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblCreatetAt.Location = new System.Drawing.Point(126, 257);
+            this.lblCreatetAt.Location = new System.Drawing.Point(137, 240);
             this.lblCreatetAt.Name = "lblCreatetAt";
-            this.lblCreatetAt.Size = new System.Drawing.Size(66, 26);
+            this.lblCreatetAt.Size = new System.Drawing.Size(61, 18);
             this.lblCreatetAt.TabIndex = 12;
             this.lblCreatetAt.Text = "label13";
             // 
-            // lblDescription
-            // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblDescription.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDescription.Location = new System.Drawing.Point(128, 303);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(65, 26);
-            this.lblDescription.TabIndex = 13;
-            this.lblDescription.Text = "label14";
-            // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(29, 403);
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnClose.Location = new System.Drawing.Point(50, 503);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(256, 40);
             this.btnClose.TabIndex = 14;
             this.btnClose.Text = "برگشت";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // rtxtDes
+            // 
+            this.rtxtDes.Location = new System.Drawing.Point(29, 303);
+            this.rtxtDes.Name = "rtxtDes";
+            this.rtxtDes.ReadOnly = true;
+            this.rtxtDes.Size = new System.Drawing.Size(277, 170);
+            this.rtxtDes.TabIndex = 15;
+            this.rtxtDes.Text = "";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.Location = new System.Drawing.Point(29, 282);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(62, 18);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "توضیحات:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // frmDetailContact
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(337, 455);
+            this.ClientSize = new System.Drawing.Size(337, 576);
+            this.Controls.Add(this.rtxtDes);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.lblDescription);
             this.Controls.Add(this.lblCreatetAt);
             this.Controls.Add(this.lblPhoneNumber);
             this.Controls.Add(this.lblCompany);
@@ -224,7 +224,7 @@ namespace UI_winForm.Forms
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Sahel", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDetailContact";
@@ -246,14 +246,14 @@ namespace UI_winForm.Forms
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblId;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblLastName;
         private System.Windows.Forms.Label lblCompany;
         private System.Windows.Forms.Label lblPhoneNumber;
         private System.Windows.Forms.Label lblCreatetAt;
-        private System.Windows.Forms.Label lblDescription;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.RichTextBox rtxtDes;
+        private System.Windows.Forms.Label label7;
     }
 }

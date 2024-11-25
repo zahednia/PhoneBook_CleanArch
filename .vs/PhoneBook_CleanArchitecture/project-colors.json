@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dd0c6630-eab3-4b4f-9ef1-c70ba901d677": {
+      "ProjectGuid": "dd0c6630-eab3-4b4f-9ef1-c70ba901d677",
+      "DisplayName": "Phonebook.Endpoint",
+      "ColorIndex": 0
+    },
+    "595d9af3-7417-4095-99ae-1eee9fa55c77": {
+      "ProjectGuid": "595d9af3-7417-4095-99ae-1eee9fa55c77",
+      "DisplayName": "ApplicationPhoneBook",
+      "ColorIndex": 1
+    },
+    "1ef89ce1-453d-4860-a7f6-0c69613dd47c": {
+      "ProjectGuid": "1ef89ce1-453d-4860-a7f6-0c69613dd47c",
+      "DisplayName": "DomainPhoneBook",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

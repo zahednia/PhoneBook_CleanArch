@@ -1,0 +1,12 @@
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\bin\Debug\net6.0\Infrastrucures.deps.json
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\bin\Debug\net6.0\Infrastrucures.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\bin\Debug\net6.0\ref\Infrastrucures.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\bin\Debug\net6.0\Infrastrucures.pdb
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\obj\Debug\net6.0\Infrastrucures.csproj.AssemblyReference.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\obj\Debug\net6.0\Infrastrucures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\obj\Debug\net6.0\Infrastrucures.AssemblyInfoInputs.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\obj\Debug\net6.0\Infrastrucures.AssemblyInfo.cs
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\obj\Debug\net6.0\Infrastrucures.csproj.CoreCompileInputs.cache
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\obj\Debug\net6.0\Infrastrucures.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\obj\Debug\net6.0\ref\Infrastrucures.dll
+C:\Users\k.zahednia\Source\Repos\zahednia\PhoneBook_CleanArch\Infrastrucures\obj\Debug\net6.0\Infrastrucures.pdb

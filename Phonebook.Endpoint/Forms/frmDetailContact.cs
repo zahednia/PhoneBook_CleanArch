@@ -30,13 +30,18 @@ namespace UI_winForm.Forms
             lblLastName.Text = contact.Data.LastName;
             lblCompany.Text = contact.Data.Company;
             lblPhoneNumber.Text = contact.Data.PhoneNumber;
-            lblDescription.Text = contact.Data.Description;
+            rtxtDes.Text = contact.Data.Description;
             lblCreatetAt.Text = contact.Data.CreateAt.ToString();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

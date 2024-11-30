@@ -44,25 +44,25 @@ namespace UI_winForm.Forms
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 184);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 194);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(785, 406);
+            this.dataGridView1.Size = new System.Drawing.Size(785, 429);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.DoubleClick += new System.EventHandler(this.dataGridView1_DoubleClick);
             // 
             // txtSearchKey
             // 
-            this.txtSearchKey.Location = new System.Drawing.Point(604, 78);
+            this.txtSearchKey.Location = new System.Drawing.Point(604, 82);
             this.txtSearchKey.Name = "txtSearchKey";
-            this.txtSearchKey.Size = new System.Drawing.Size(169, 24);
+            this.txtSearchKey.Size = new System.Drawing.Size(169, 27);
             this.txtSearchKey.TabIndex = 1;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(604, 117);
+            this.btnSearch.Location = new System.Drawing.Point(604, 124);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(169, 33);
+            this.btnSearch.Size = new System.Drawing.Size(169, 35);
             this.btnSearch.TabIndex = 2;
             this.btnSearch.Text = "جستجو";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -71,18 +71,18 @@ namespace UI_winForm.Forms
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(657, 50);
+            this.label1.Location = new System.Drawing.Point(657, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 18);
+            this.label1.Size = new System.Drawing.Size(95, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "جستجو کنید";
             // 
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.LightCoral;
-            this.btnDelete.Location = new System.Drawing.Point(12, 147);
+            this.btnDelete.Location = new System.Drawing.Point(12, 155);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(125, 33);
+            this.btnDelete.Size = new System.Drawing.Size(125, 35);
             this.btnDelete.TabIndex = 4;
             this.btnDelete.Text = "حذف مخاطب";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -91,9 +91,9 @@ namespace UI_winForm.Forms
             // btnDetail
             // 
             this.btnDetail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.btnDetail.Location = new System.Drawing.Point(12, 108);
+            this.btnDetail.Location = new System.Drawing.Point(12, 114);
             this.btnDetail.Name = "btnDetail";
-            this.btnDetail.Size = new System.Drawing.Size(125, 33);
+            this.btnDetail.Size = new System.Drawing.Size(125, 35);
             this.btnDetail.TabIndex = 5;
             this.btnDetail.Text = "نمایش جزئیات";
             this.btnDetail.UseVisualStyleBackColor = false;
@@ -102,9 +102,9 @@ namespace UI_winForm.Forms
             // btnAddNewContact
             // 
             this.btnAddNewContact.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnAddNewContact.Location = new System.Drawing.Point(12, 12);
+            this.btnAddNewContact.Location = new System.Drawing.Point(12, 13);
             this.btnAddNewContact.Name = "btnAddNewContact";
-            this.btnAddNewContact.Size = new System.Drawing.Size(158, 33);
+            this.btnAddNewContact.Size = new System.Drawing.Size(158, 35);
             this.btnAddNewContact.TabIndex = 6;
             this.btnAddNewContact.Text = "ثبت مخاطب جدید";
             this.btnAddNewContact.UseVisualStyleBackColor = false;
@@ -113,9 +113,9 @@ namespace UI_winForm.Forms
             // btnEdit
             // 
             this.btnEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnEdit.Location = new System.Drawing.Point(12, 51);
+            this.btnEdit.Location = new System.Drawing.Point(12, 54);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(158, 37);
+            this.btnEdit.Size = new System.Drawing.Size(158, 39);
             this.btnEdit.TabIndex = 7;
             this.btnEdit.Text = "ویرایش مخاطب";
             this.btnEdit.UseVisualStyleBackColor = false;
@@ -123,9 +123,9 @@ namespace UI_winForm.Forms
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(785, 590);
+            this.ClientSize = new System.Drawing.Size(785, 623);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAddNewContact);
             this.Controls.Add(this.btnDetail);
@@ -134,7 +134,7 @@ namespace UI_winForm.Forms
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearchKey);
             this.Controls.Add(this.dataGridView1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "frmMain";

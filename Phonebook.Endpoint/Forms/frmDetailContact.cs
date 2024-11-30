@@ -43,5 +43,10 @@ namespace UI_winForm.Forms
         {
 
         }
+
+        private void lblPhoneNumber_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
